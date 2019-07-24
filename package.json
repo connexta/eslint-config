@@ -1,0 +1,23 @@
+{
+  "name": "@connexta/eslint-config-connexta",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/connexta/eslint-config-connexta.git"
+  },
+  "author": "Connexta",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/connexta/eslint-config-connexta/issues"
+  },
+  "homepage": "https://github.com/connexta/eslint-config-connexta#readme",
+  "peerDependencies": {
+    "eslint": ">= 3",
+    "@connexta/eslint-plugin-connexta": "git://github.com/connexta/eslint-plugin-connexta.git#v0.0.2"
+  }
+}
