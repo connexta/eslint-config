@@ -1,7 +1,10 @@
 module.exports = {
-  rules: {
-    'no-console': 'off',
-    '@connexta/connexta/no-absolute-urls': 2,
+  plugins: ['react', '@connexta/connexta'],
+  parser: 'babel-eslint',
+  parserOptions: {
+    ecmaVersion: 6,
+    sourceType: 'module',
+    ecmaFeatures: { jsx: true },
   },
   globals: {
     "define": "writable",
@@ -15,11 +18,8 @@ module.exports = {
   settings: {
     react: { version: 'detect' },
   },
-  parserOptions: {
-    ecmaVersion: 6,
-    sourceType: 'module',
-    ecmaFeatures: { jsx: true },
-  },
-  plugins: ['react', '@connexta/connexta'],
-  parser: 'babel-eslint',
+  rules: {
+    'no-console': 'off',
+    '@connexta/connexta/no-absolute-urls': 2,
+  }
 }
