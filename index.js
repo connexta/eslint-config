@@ -1,5 +1,5 @@
 module.exports = {
-  plugins: ['react', '@connexta/connexta'],
+  plugins: ['@connexta/connexta'],
   parser: 'babel-eslint',
   parserOptions: {
     ecmaVersion: 6,
@@ -20,6 +20,6 @@ module.exports = {
   },
   rules: {
     'no-console': 'off',
-    '@connexta/connexta/no-absolute-urls': 2,
+    '@connexta/connexta/no-absolute-path-references': 2,
   }
 }
