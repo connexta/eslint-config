@@ -1,5 +1,5 @@
 module.exports = {
-  plugins: ['@connexta/connexta'],
+  plugins: ['react', '@connexta/connexta'],
   parser: 'babel-eslint',
   parserOptions: {
     ecmaVersion: 6,
