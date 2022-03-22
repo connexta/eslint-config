@@ -18,6 +18,6 @@
   "homepage": "https://github.com/connexta/eslint-config-connexta#readme",
   "peerDependencies": {
     "eslint": ">= 3",
-    "@connexta/eslint-plugin-connexta": "git://github.com/connexta/eslint-plugin-connexta.git#9b366b8924c3dbe03aedcfe6d25c8eb3567cc061"
+    "@connexta/eslint-plugin-connexta": "git+https://github.com/connexta/eslint-plugin-connexta.git#9b366b8924c3dbe03aedcfe6d25c8eb3567cc061"
   }
 }
